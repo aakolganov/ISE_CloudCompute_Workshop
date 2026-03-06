@@ -416,3 +416,13 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+#Other workshop-specific ignores
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+workshop_local/downloads/
+models/*.model
+*.pem
